@@ -31,5 +31,5 @@ jobs:
       run: npm install surge -g surge
     
     - name: deploy with surge
-      run: surge ./ deploywithsurge.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./ soggy-boats.surge.sh --token ${{ secrets.SURGE_TOKEN }}
       
